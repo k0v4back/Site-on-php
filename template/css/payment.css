@@ -1,0 +1,88 @@
+.opn-reg {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.opn-bold {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+/* Base colors */
+/* Base settigns */
+body {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #626262;
+  background: #f5f5f5;
+}
+/* Start section Payment */
+.payment h3 {
+  text-align: center;
+  font-size: 6vh;
+  color: #4eb2f7;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  margin-bottom: 5%;
+}
+.payment-main-block-left,
+.payment-main-block-right {
+  border: 3px solid #00cc99;
+  padding: 2%;
+  margin-bottom: 2%;
+  height: 75vh;
+}
+.payment-main-block-left h4,
+.payment-main-block-right h4 {
+  color: #4eb2f7;
+  text-align: center;
+  font-size: 4vh;
+  margin: 4% 0;
+}
+.payment-main-block-left input,
+.payment-main-block-right input {
+  width: 60%;
+  outline: none;
+}
+.payment-main-block-left input:hover,
+.payment-main-block-right input:hover,
+.payment-main-block-left input:focus,
+.payment-main-block-right input:focus {
+  border: 2px solid #fc6744;
+}
+.payment-main-block-left span,
+.payment-main-block-right span {
+  font-family: Open Sans;
+  font-size: 3vh;
+  color: #706b73;
+  display: block;
+  margin: 2% 0;
+}
+.payment-main-block-right p {
+  text-align: center;
+  font-size: 3vh;
+  color: #706b73;
+}
+.payment-main-block-right li {
+  list-style-type: none;
+  margin: 2% 0;
+}
+.payment-main-block-right li a {
+  color: #fc6744;
+}
+.payment-main-block-right li a:hover {
+  text-decoration: none;
+  color: #706b73;
+}
+.payment-main-block-right img {
+  width: 30%;
+  height: 35%;
+}
+.payment-main-block-right button {
+  border-radius: 7px;
+  cursor: pointer;
+  border: 3px solid #4eb2f7;
+  margin: 0 33%;
+}
+.payment-main-block-right button a {
+  text-decoration: none;
+}

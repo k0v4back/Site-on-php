@@ -1,0 +1,136 @@
+/*
+Name: Grizzly
+Author: Alexandr Bilyk
+*/
+
+/* Fots files */
+
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700);
+@import url(http://fonts.googleapis.com/css?family=Abel);
+
+.opn-reg {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.opn-bold {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;  
+}
+
+/* Base colors */
+@base-black: #706b73;
+@base-red: #fc6744;
+@white: #fff;
+@base-text: #626262;
+@bg-grey: #f5f5f5;
+@base-green: #00cc99;
+@blue: #4eb2f7;
+@purple: #c049f8;
+@blue-grey: #817eff;
+@pink: #f74770;
+@yellow: #ffef3b;
+@grey: #adadad;
+
+/* Base settigns */
+
+body {
+  background: #E1CECE;
+  font-size: 14px;
+  color: @base-black;
+  font-family: 'Roboto', sans-serif;
+}
+ul li {
+  list-style: none;
+}
+
+a:hover {
+outline: none;
+text-decoration:none;
+}
+
+a:focus {
+  outline:none;
+  outline-offset: 0;
+}
+
+a {
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn:hover, 
+.btn:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+/* Start section Result Search */
+
+.title {
+  font-size: 5vh;
+  color: @base-red;
+}
+
+.result_search {
+  &-box {
+    .product-image-wrapper{
+      border:1px solid #F7F7F5;
+      overflow: hidden;
+      margin-bottom:30px;
+    }
+
+    .productinfo h2{
+      color: #FE980F;
+      font-family: 'Roboto', sans-serif;
+      font-size: 3.5vh;
+      font-weight: 700;
+    }
+
+    .productinfo p{
+      font-family: 'Roboto', sans-serif;
+      font-size: 2.2vh;
+      font-weight: 400;
+      color: #696763;
+    }
+
+    .productinfo img{
+      width: 100%;
+    }
+
+    .single-products:hover {
+      display:block;
+      height:100%;
+    }
+
+    .description{
+      background:#F5F5ED;
+      border: 0 none;
+      border-radius: 0;
+      color: #696763;
+      font-family: 'Roboto', sans-serif;
+      font-size: 2vh;
+      margin-bottom: 3vh;
+    }
+
+    .description:hover {
+      background: #FE980F;
+      border: 0 none;
+      border-radius: 0;
+      color: @white;
+      -webkit-transition: all .5s ease-in 0s;
+     -moz-transition: all .5s ease-in 0s;
+     -o-transition: all .5s ease-in 0s;
+      transition: all .5s ease-in 0s;
+    }
+
+  }
+}
+
+/* Finish section Result Search */
